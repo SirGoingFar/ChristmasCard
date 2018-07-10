@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eemf.christmascard.MainActivity">
+
+    <ImageView
+        android:src="@drawable/img_bg"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="matrix"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merry Christmas and Happy New Year in advance to YOU!!!"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#f1d418"
+
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akintunde"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#f1d418"
+
+        android:paddingLeft="4dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love from"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:fontFamily="cursive"
+
+        android:paddingBottom="12dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/sender"
+        />
+</RelativeLayout>
